@@ -1,0 +1,32 @@
+# Dependency directories
+node_modules/
+
+# Generated files
+build/
+dist/
+*.log
+*.pid
+*.seed
+*.pid.lock
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# Environment files
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
