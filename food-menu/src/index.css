@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  background-color: #3f1a12;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #d18d3c;
+  border-radius: 20px;
+  width: 1000px;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #97592c;
+  color: #ffffff;
+  text-transform: capitalize;
+  text-align: center;
+  border-radius: 5px;
+  height: 2rem;
+  padding: 10px 20px;
+  margin: 1rem;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #b86c36;
+}
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  background-color: #65341e;
+  border-radius: 10px;
+  width: 250px;
+  margin: 1rem;
+  padding: 1rem;
+  height: fit-content;
+}
+
+.meal-name {
+  text-align: center;
+  text-transform: uppercase;
+  color: #f4e1af;
+}
+
+.meal-price {
+  color: #ffffff;
+  background-color: #97592c;
+  border-radius: 5px;
+  height: 2rem;
+  padding: 5px;
+}
+
+.meal-desc {
+  color: #ffffff;
+}
