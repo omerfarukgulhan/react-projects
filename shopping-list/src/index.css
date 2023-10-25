@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan&display=swap");
+
+body {
+  font-family: "League Spartan", sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282723;
+  color: #08deff;
+}
+
+.container {
+  background-color: #545674;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-input {
+  background-color: white;
+  border: none;
+  height: 30px;
+  padding: 0;
+  outline: none;
+}
+
+.btn {
+  padding: 0 10px;
+  background-color: #0ffff8;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+}
+
+.btn:hover {
+  background-color: #08deff;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  flex-grow: 1;
+}
+
+.delete-btn {
+  background-color: #282723;
+  color: #08deff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
